@@ -1,0 +1,176 @@
+/* Style sheet for Johannes */
+
+/* fonts */
+
+@font-face {
+    font-family: "Snickles";
+    src: url(./fonts/Snickles.woff2);
+}
+@font-face {
+    font-family: "ArbutusSlab";
+    src: url(./fonts/ArbutusSlab-Regular.woff2);
+}
+@font-face {
+    font-family: "Reey";
+    src: url(./fonts/Reey-Regular.woff);
+}
+/* style */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(20, 19, 19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topLayer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient( black 15%, transparent 40%,transparent 60%, black 80%);
+    z-index: 10;
+}
+.arrow {
+    position: fixed;
+    z-index: 20;
+    bottom: 100px;
+    color: white;
+    font-size: 2rem;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow:hover {
+    cursor: pointer;
+}
+.pages {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    top: 0; */
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    background: linear-gradient( transparent, rgba(50, 50, 50, 0.8));
+    /* box-shadow: 0 0 2rem rgba(255, 255, 255, 0.3); */
+    border-bottom: 2px solid black;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 11;
+}
+.logo {
+    font-family: "snickles", sans-serif;
+    font-size: 2rem;
+    pointer-events: none;
+}
+.navbar > .items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "ArbutusSlab", sans-serif;
+    font-size: 0.9rem;
+    border-right: 2px solid black;
+}
+.link a{
+    padding: 0 1rem;
+    text-decoration: none;
+}
+.frontPage {
+    height: 80vh;
+}
+.title {
+    font-family: "snickles", sans-serif;
+    font-size: 4rem;
+    position: relative;
+    pointer-events: none;
+}
+.imageContainer {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-position: center;
+}
+.imageInfo {
+    font-family: "ArbutusSlab", sans-serif;
+    text-align: center;
+}
+.footer {
+    z-index: 22;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "ArbutusSlab", sans-serif;
+    box-shadow: 0 -60px 100px 100px black;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer span {
+    font-family: "Reey", sans-serif;
+}
+
+/* Pages */
+.aboutPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10rem;
+}
+.header {
+    font-family: "snickles", sans-serif;
+    font-size: 3rem;
+}
+.content {
+    margin: 4rem;
+    text-align: center;
+}
+.signature {
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+.logo a {
+    text-decoration: none;
+}
