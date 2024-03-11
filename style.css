@@ -82,7 +82,7 @@ body {
 .logo {
     font-family: "snickles", sans-serif;
     font-size: 2rem;
-    pointer-events: none;
+    margin-left: 1rem;
 }
 .navbar > .items {
     display: flex;
@@ -156,15 +156,20 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 .header {
     font-family: "snickles", sans-serif;
     font-size: 3rem;
+    margin: 1rem;
 }
 .content {
     margin: 4rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .signature {
     position: relative;
@@ -173,4 +178,42 @@ body {
 }
 .logo a {
     text-decoration: none;
+}
+.logo a:hover {
+    cursor: pointer;
+}
+.contactPage {
+    height: 150vh;
+    width: 100%;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+.option {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+button {
+    background: black;
+    border-style: none;
+    border: 1px solid white;
+    padding: 1rem;
+    width: 250px;
+    margin: 1rem;
+}
+input {
+    width: 300px;
+    height: 200px;
+    background: black;
+    border-style: none;
+    border: 2px solid white;
+    margin: 1rem;
+}
+button:hover {
+    cursor: pointer;
 }
