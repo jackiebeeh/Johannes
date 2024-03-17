@@ -29,10 +29,11 @@ html {
 a:hover {
     cursor: pointer;
     text-shadow: 0 0 20px white;
-    transition: text-shadow .5s ease;
+    transition: text-shadow .5s ease, font-size .5s ease;
+    font-size: calc(+20px);
 }
 a {
-    transition: text-shadow .5s ease;
+    transition: text-shadow .5s ease, font-size .5s ease;
 }
 body {
     display: flex;
