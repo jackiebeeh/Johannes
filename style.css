@@ -140,8 +140,14 @@ body {
     width: 300px;
     border-radius: 50%;
     border: 2px solid white;
-
     scroll-snap-align: center;
+    transition: width 2s ease, height 2s ease, box-shadow 1s ease;
+}
+.image:hover {
+    width: 350px;
+    height: 350px;
+    transition: width 2s ease, height 2s ease, box-shadow 1s ease;
+    box-shadow: 0 0 50px rgb(183, 50, 255);
 }
 .image img {
     height: 100%;
