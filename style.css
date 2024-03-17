@@ -14,6 +14,10 @@
     font-family: "Reey";
     src: url(./fonts/Reey-Regular.woff);
 }
+@font-face {
+    font-family: "Bonveno";
+    src: url(./fonts/BonvenoCF-Light.woff2);
+}
 /* style */
 *,
 *::before,
@@ -38,6 +42,7 @@ body {
     left: 0;
     background-image: linear-gradient( black 15%, transparent 40%,transparent 60%, black 80%);
     z-index: 10;
+    pointer-events: none;
 }
 .arrow {
     position: fixed;
@@ -80,7 +85,7 @@ body {
     z-index: 11;
 }
 .logo {
-    font-family: "snickles", sans-serif;
+    font-family: "Bonveno", sans-serif;
     font-size: 2rem;
     margin-left: 1rem;
 }
@@ -100,8 +105,8 @@ body {
     height: 80vh;
 }
 .title {
-    font-family: "snickles", sans-serif;
-    font-size: 4rem;
+    font-family: "Bonveno", sans-serif;
+    font-size: 3rem;
     position: relative;
     pointer-events: none;
 }
@@ -159,7 +164,7 @@ body {
     margin-top: 15rem;
 }
 .header {
-    font-family: "snickles", sans-serif;
+    font-family: "Bonveno", sans-serif;
     font-size: 3rem;
     margin: 1rem;
 }
@@ -183,7 +188,7 @@ body {
     cursor: pointer;
 }
 .contactPage {
-    height: 150vh;
+    height: 100vh;
     width: 100%;
 }
 .contacts {
@@ -215,5 +220,8 @@ input {
     margin: 1rem;
 }
 button:hover {
+    cursor: pointer;
+}
+a:hover {
     cursor: pointer;
 }
