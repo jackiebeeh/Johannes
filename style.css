@@ -28,6 +28,11 @@ html {
 }
 a:hover {
     cursor: pointer;
+    text-shadow: 0 0 20px white;
+    transition: text-shadow .5s ease;
+}
+a {
+    transition: text-shadow .5s ease;
 }
 body {
     display: flex;
@@ -73,9 +78,12 @@ body {
 .arrow i{
     color: white;
     font-size: 2rem;
+    transition: text-shadow .5s ease;
 }
 .arrow > i:hover {
     cursor: pointer;
+    text-shadow: 0 0 20px white;
+    transition: text-shadow .2s ease;
 }
 
 /* navbar */
