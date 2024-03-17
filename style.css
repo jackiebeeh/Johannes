@@ -23,6 +23,9 @@
     color: white;
     box-sizing: border-box;
 }
+html {
+    scroll-snap-type: y mandatory;
+}
 a:hover {
     cursor: pointer;
 }
@@ -40,6 +43,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    scroll-snap-align: center;
 }
 
 /* Layer Mask */
