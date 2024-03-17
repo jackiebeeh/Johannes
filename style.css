@@ -169,13 +169,18 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     font-family: "ArbutusSlab", sans-serif;
     background: rgb(20, 19, 19);
-    
+    scroll-snap-align: center;
 }
 .footer span {
     font-family: "Reey", sans-serif;
 }
 
 /* Pages */
+.aboutPage,
+.contactPage {
+    scroll-snap-align: center;
+}
+
 .header {
     margin: 1rem;
     font-size: 3rem;
@@ -192,10 +197,6 @@ body {
 }
 
 /* About Page */
-.aboutPage {
-    justify-content: flex-start;
-    margin-top: 15rem;
-}
 .signature {
     position: relative;
     top: 20px;
