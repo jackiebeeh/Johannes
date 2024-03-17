@@ -120,6 +120,8 @@ body {
     font-size: 3rem;
     text-align: center;
     font-family: "Bonveno", sans-serif;
+    scroll-snap-align: center;
+    text-shadow: 0 0 0px rgba(176, 65, 255, 0.8);
 }
 
 /* Images */
@@ -158,6 +160,7 @@ body {
 .imageInfo {
     font-family: "ArbutusSlab", sans-serif;
     text-align: center;
+    scroll-snap-align: center;
 }
 
 /* Footer */
@@ -200,6 +203,7 @@ body {
     align-items: center;
     margin: 4rem;
     text-align: center;
+    max-width: 800px;
 }
 
 /* About Page */
