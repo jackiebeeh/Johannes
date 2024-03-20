@@ -120,7 +120,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     font-size: 0.9rem;
-    font-family: "ArbutusSlab", sans-serif;
+    font-family: "OpenDyslexicRegular", sans-serif;
 }
 .link a{
     padding: 0 1rem;
@@ -184,7 +184,7 @@ body {
     object-position: center;
 }
 .imageInfo {
-    font-family: "ArbutusSlab", sans-serif;
+    font-family: "OpenDyslexicRegular", sans-serif;
     text-align: center;
     scroll-snap-align: center;
 }
@@ -202,7 +202,7 @@ body {
     gap: 10px;
     box-shadow: 0 -60px 70px 70px black;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
-    font-family: "ArbutusSlab", sans-serif;
+    font-family: "OpenDyslexicRegular", sans-serif;
     background: rgb(20, 19, 19);
     scroll-snap-align: center;
 }
@@ -214,6 +214,7 @@ body {
 .aboutPage,
 .contactPage {
     scroll-snap-align: center;
+    font-family: "OpenDyslexicRegular", sans-serif;
 }
 
 .header {
