@@ -13,6 +13,14 @@
     font-family: "Reey";
     src: url(./fonts/Reey-Regular.woff);
 }
+@font-face {
+    font-family: "OpenDyslexicRegular";
+    src: url(./fonts/OpenDyslexicThree-Regular.woff2);
+}
+@font-face {
+    font-family: "OpenDyslexicBold";
+    src: url(./fonts/OpenDyslexicThree-Bold.woff2);
+}
 
 /* General */
 *,
@@ -102,7 +110,7 @@ body {
     background: linear-gradient( transparent, rgba(50, 50, 50, 0.8));
 }
 .logo a {
-    font-family: "Bonveno", sans-serif;
+    font-family: "OpenDyslexicBold", sans-serif;
     font-size: 1.5rem;
     margin-left: 1rem;
     text-decoration: none;
@@ -131,7 +139,7 @@ body {
     margin: 0 2rem;
     font-size: 4rem;
     text-align: center;
-    font-family: "Bonveno", sans-serif;
+    font-family: "OpenDyslexicBold", sans-serif;
     text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.216);
     font-weight: bold;
     scroll-snap-align: center;
